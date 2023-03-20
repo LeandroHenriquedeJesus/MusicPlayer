@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+    font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" 
+    crossorigin="anonymous">
+
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/
+    fontawesome.min.css">
+
+    <title>How To Make Music Player Using HTML CSS JavaScript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <div class="section">
+            <div class="section_background">
+                <img src="img1.jpeg" alt="" class="section_background-image" id="backgroundImage">
+            </div>
+            <div class="music-card_wrapper">
+                <div class="music-card">
+                    <div class="music-card_content">
+                        <img src="img1.jpeg" alt="" class="music-image">
+                        <div class="music-info">
+                            <h2 class="music-name">Rockstar (ft.21 Savage)</h2>
+                            <p class="music-artist">Post Malone</p>
+                        </div>
+                        <audio src="song1.mp3"></audio>
+                        <div class="music-progress">
+                            <div class="music-progress-bar" id="progress-bar"></div>
+                            <div class="music-progress_time">
+                                <span class="music-progress_time-item music-current-time">00:00</span>
+                                <span class="music-progress_time-item music-duration-time">00:00</span>
+                            </div>
+                            <div class="music-controls">
+                                <div class="music-controls-item" id="prev">
+                                    <i class="fas fa-backward music-controls-item--icon"></i>
+                                </div>
+                                <div class="music-controls-item" id="play">
+                                    <i class="fas fa-play music-controls-item--icon play-icon"></i>
+                                </div>
+                                <div class="music-controls-item" id="next">
+                                    <i class="fas fa-forward music-controls-item--icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
