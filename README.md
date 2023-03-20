@@ -1,3 +1,3 @@
-# MusicPlayer
+# Music Player
 
 Projeto Music Player com HTMLs Css E JavaScript.
